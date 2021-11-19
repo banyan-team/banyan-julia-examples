@@ -2,36 +2,30 @@
 
 This repo contains examples and tutorials for various Banyan Julia libraries,
 such as BanyanDataFrames and BanyanArrays. If you're new to Banyan, this is a
-good place to start.
+great place to start!
 
-## Prerequisites
+## Running the Example Notebooks
 
-In order run these examples, you will need an account with Banyan. Visit the
-[Banyan Computing website](https://www.banyancomputing.com/getting-started/)
-to get started.
+To run the notebooks, follow the following steps:
 
-You will additionally need `Julia`, `Jupyter Notebook` set up with `Julia`, and Git.
+1. Set up a Banyan account by following the steps [here](https://www.banyancomputing.com/getting-started/).
+2. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and clone (download) this notebook by running the following in a terminal (command prompt):
 
-Download the Julia installer for your operating system [here](https://julialang.org/downloads/), and follow the instructions to finish the installation. Open Julia in the REPL and enter package mode by typing `]`. Run `add IJulia` to install the Julia package required for running a Jupyter Notebook with Julia.
+```
+git clone git@github.com:banyan-team/banyan-julia-examples.git`
+```
+
+3. Download the Julia installer for your operating system [here](https://julialang.org/downloads/), and follow the instructions to finish the installation. Open Julia in the REPL and enter package mode by typing `]`. Run `add IJulia` to install the Julia package required for running a Jupyter Notebook with Julia.
 
 ```
 julia> ]
 (@v1.6) pkg> add IJulia
 ```
 
-Install Jupyter Notebook using [Anaconda](https://www.anaconda.com/products/individual) or any other prefered distribution.
+4. Install Jupyter Notebook by running `pip install notebook` or following directions [here](https://jupyter.org/install).
+5. To run the notebooks, open Jupyter Notebook and navigate to the example you would like to run. To open Jupyter Notebook, simply run `jupyter notebook` in a terminal or open it from the Anaconda Navigator.
 
-Clone this repository by running the following command in a terminal:
-
-```
-> git clone git@github.com:banyan-team/banyan-julia-examples.git
-```
-
-## Running the Notebooks
-
-To run the notebooks, open Jupyter Notebook and navigate to the example you would like to run. To open Jupyter Notebook, simply run `jupyter notebook` in a terminal or open it from the Anaconda Navigator.
-
-## Notebooks Summary
+## Summary of Notebooks
 
 * `iris.ipynb` - This notebook is a good starting place if you are new to Banyan. It provides a simple example of how to spin up a cluster and a job and how to run some data analytics on a CSV file on the cluster.
 * `nyc_taxi.ipynb` - This notebook provides an example on how to run data analytics at scale on a CSV dataset in S3.
