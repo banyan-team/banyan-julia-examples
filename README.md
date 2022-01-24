@@ -27,5 +27,6 @@ julia> ]
 
 ## Summary of Notebooks
 
-* `iris.ipynb` - This notebook is a good starting place if you are new to Banyan. It provides a simple example of how to spin up a cluster and a job and how to run some data analytics on a CSV file on the cluster.
-* `nyc_taxi.ipynb` - This notebook provides an example on how to run data analytics at scale on a CSV dataset in S3.
+* [`iris.ipynb`](/iris/iris.ipynb) - This notebook is a good starting place if you are new to Banyan. It provides a simple example of how to spin up a cluster and a job and how to run some data analytics on a CSV file on the cluster.
+* [`nyc_taxi.ipynb`](/nyc_taxi/nyc_taxi.ipynb) - Large-scale data analysis of CSV dataset stored in the cloud (S3)
+- [`parameter_tuning.ipynb`](/parameter_tuning/parameter_tuning.ipynb) - Massively parallel parameter tuning in the cloud
