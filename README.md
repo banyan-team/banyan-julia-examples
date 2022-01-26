@@ -12,7 +12,7 @@ To run the notebooks, follow the following steps:
 2. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and clone (download) this notebook by running the following in a terminal (command prompt):
 
 ```
-git clone git@github.com:banyan-team/banyan-julia-examples.git`
+git clone git@github.com:banyan-team/banyan-julia-examples.git
 ```
 
 3. Download the Julia installer for your operating system [here](https://julialang.org/downloads/), and follow the instructions to finish the installation. Open Julia in the REPL and enter package mode by typing `]`. Run `add IJulia` to install the Julia package required for running a Jupyter Notebook with Julia.
