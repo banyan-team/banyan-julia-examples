@@ -56,7 +56,7 @@ version = "0.1.0"
 
 [[Banyan]]
 deps = ["AWS", "AWSCore", "AWSS3", "AWSSQS", "Base64", "DataFrames", "Dates", "Downloads", "FileIO", "FilePathsBase", "HTTP", "IniFile", "JSON", "LibGit2", "MPI", "Pkg", "ProgressMeter", "Random", "SHA", "Serialization", "TOML", "TimeZones"]
-git-tree-sha1 = "643d6380c6ddf24d13e49069c82e79c7e8c1e670"
+path = "../../banyan-julia/Banyan"
 uuid = "706d138b-e922-45b9-a636-baf8ae0d5317"
 version = "0.2.4"
 
