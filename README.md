@@ -32,4 +32,3 @@ julia> ]
 * [`nyc_taxi.ipynb`](/nyc_taxi/nyc_taxi.ipynb) - Large-scale data analysis of CSV dataset stored in the cloud (S3)
 - [`parameter_tuning.ipynb`](/parameter_tuning/parameter_tuning.ipynb) - Massively parallel parameter tuning in the cloud
 - [`shallow_water_modeling.ipynb`](/shallow_water_modeling/shallow_water_modeling.ipynb) - MPI-powered fluid dynamics simulation
-- [`satellite_image_encoding.ipynb`](/satellite_image_encoding/satellite_image_encoding.ipynb) - PyTorch-based encoding of thousands of NASA satellite images
