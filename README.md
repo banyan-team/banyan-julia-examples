@@ -23,11 +23,12 @@ julia> ]
 ```
 
 4. Install Jupyter Notebook by running `pip install notebook` or following directions [here](https://jupyter.org/install).
-5. To run the notebooks, open Jupyter Notebook and navigate to the example you would like to run. To open Jupyter Notebook, simply run `jupyter notebook` in a terminal or open it from the Anaconda Navigator.
+5. Cd into the directory of the notebook you would like to run. Then, run `BANYAN_API_KEY=<YOUR_BANYAN_API_KEY>   BANYAN_USER_ID=<YOUR_BANYAN_USER_ID> julia --project=.` to open Julia.
+5. To run the notebook, run `using IJulia; notebook()` in the Julia interpretor. These steps will ensure that you open the notebook in the correct environment.
 
 ## Summary of Notebooks
 
 * [`iris.ipynb`](/iris/iris.ipynb) - This notebook is a good starting place if you are new to Banyan. It provides a simple example of how to spin up a cluster and a job and how to run some data analytics on a CSV file on the cluster.
 * [`nyc_taxi.ipynb`](/nyc_taxi/nyc_taxi.ipynb) - Large-scale data analysis of CSV dataset stored in the cloud (S3)
 - [`parameter_tuning.ipynb`](/parameter_tuning/parameter_tuning.ipynb) - Massively parallel parameter tuning in the cloud
-- [`shallow_water_modeling.ipynb`](/shallow_water_modeling/shallow_water_modeling.ipynb) - MPI-powered simulation with any number of workers
+- [`shallow_water_modeling.ipynb`](/shallow_water_modeling/shallow_water_modeling.ipynb) - MPI-powered fluid dynamics simulation
