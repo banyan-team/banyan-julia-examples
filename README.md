@@ -28,7 +28,8 @@ julia> ]
 
 ## Summary of Notebooks
 
-* [`iris.ipynb`](/iris/iris.ipynb) - This notebook is a good starting place if you are new to Banyan. It provides a simple example of how to spin up a cluster and a job and how to run some data analytics on a CSV file on the cluster.
-* [`nyc_taxi.ipynb`](/nyc_taxi/nyc_taxi.ipynb) - Large-scale data analysis of CSV dataset stored in the cloud (S3)
+- [`iris.ipynb`](/iris/iris.ipynb) - This notebook is a good starting place if you are new to Banyan. It provides a simple example of how to spin up a cluster and a job and how to run some data analytics on a CSV file on the cluster.
+- [`nyc_taxi.ipynb`](/nyc_taxi/nyc_taxi.ipynb) - Large-scale data analysis of CSV dataset stored in the cloud (S3)
 - [`parameter_tuning.ipynb`](/parameter_tuning/parameter_tuning.ipynb) - Massively parallel parameter tuning in the cloud
 - [`shallow_water_modeling.ipynb`](/shallow_water_modeling/shallow_water_modeling.ipynb) - MPI-powered fluid dynamics simulation
+- [`satellite_image_encoding`](/satellite_image_encoding/satellite_image_encoding.ipynb) - PyTorch-based encoding of thousands of NASA satellite images (Unreleased)
