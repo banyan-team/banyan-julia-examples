@@ -44,21 +44,21 @@ uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [[Banyan]]
 deps = ["AWS", "AWSCore", "AWSS3", "AWSSQS", "Base64", "DataFrames", "Dates", "Downloads", "FileIO", "FilePathsBase", "HTTP", "IniFile", "JSON", "LibGit2", "MPI", "Pkg", "ProgressMeter", "Random", "SHA", "Serialization", "TOML", "TimeZones"]
-git-tree-sha1 = "7ad5a8db7091e7ad95517ab20fb5903284afdf4a"
+git-tree-sha1 = "95ae5e9be39dfedbe7b435d13733521642a43b53"
 uuid = "706d138b-e922-45b9-a636-baf8ae0d5317"
-version = "0.3.1"
+version = "0.3.2"
 
 [[BanyanArrays]]
-deps = ["AWS", "AWSCore", "AWSS3", "Banyan", "Downloads", "FileIO", "FilePathsBase", "HDF5", "MPI", "Missings", "Random", "Serialization"]
-git-tree-sha1 = "2ee5ab2836a62dcb33191f6755508fcc2132bdfd"
+deps = ["AWS", "AWSCore", "AWSS3", "Banyan", "Downloads", "FileIO", "FilePathsBase", "MPI", "Missings", "Random", "Serialization"]
+git-tree-sha1 = "4ee645aea7b583641c68392f47e1d194374b784c"
 uuid = "369465de-032e-4609-9dcf-82b89c370a7b"
-version = "0.2.1"
+version = "0.3.0"
 
 [[BanyanDataFrames]]
 deps = ["AWS", "AWSCore", "AWSS3", "Arrow", "Banyan", "BanyanArrays", "CSV", "DataFrames", "Downloads", "FileIO", "FilePathsBase", "MPI", "Missings", "Parquet", "ProgressMeter", "Random", "Serialization"]
-git-tree-sha1 = "2274e027404c442172be96a925f10d3c8929e13c"
+git-tree-sha1 = "9ff15435c02b6c0252957869f447162f7d8c8180"
 uuid = "dfdd4555-3ad7-41cc-a503-a251c9c652f9"
-version = "0.2.1"
+version = "0.3.0"
 
 [[Base64]]
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
@@ -74,18 +74,6 @@ deps = ["Random"]
 git-tree-sha1 = "5a814467bda636f3dde5c4ef83c30dd0a19928e0"
 uuid = "c3b6d118-76ef-56ca-8cc7-ebb389d030a1"
 version = "0.2.6"
-
-[[Blosc]]
-deps = ["Blosc_jll"]
-git-tree-sha1 = "310b77648d38c223d947ff3f50f511d08690b8d5"
-uuid = "a74b3585-a348-5f62-a45c-50e91977d574"
-version = "0.7.3"
-
-[[Blosc_jll]]
-deps = ["Artifacts", "JLLWrappers", "Libdl", "Lz4_jll", "Pkg", "Zlib_jll", "Zstd_jll"]
-git-tree-sha1 = "91d6baa911283650df649d0aea7c28639273ae7b"
-uuid = "0b7ba130-8d10-5ba8-a3d6-c5182647fed9"
-version = "1.21.1+0"
 
 [[CEnum]]
 git-tree-sha1 = "215a9aa4a1f23fbd05b92769fdd62559488d70e9"
@@ -225,18 +213,6 @@ git-tree-sha1 = "c8594dff1ed76e232d8063b2a2555335900af6f3"
 uuid = "bc5e4493-9b4d-5f90-b8aa-2b2bcaad7a26"
 version = "5.7.0"
 
-[[HDF5]]
-deps = ["Blosc", "Compat", "HDF5_jll", "Libdl", "Mmap", "Random", "Requires"]
-git-tree-sha1 = "698c099c6613d7b7f151832868728f426abe698b"
-uuid = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
-version = "0.15.7"
-
-[[HDF5_jll]]
-deps = ["Artifacts", "JLLWrappers", "LibCURL_jll", "Libdl", "OpenSSL_jll", "Pkg", "Zlib_jll"]
-git-tree-sha1 = "bab67c0d1c4662d2c4be8c6007751b0b6111de5c"
-uuid = "0234f1f7-429e-5d53-9886-15a909be8d59"
-version = "1.12.1+0"
-
 [[HTTP]]
 deps = ["Base64", "Dates", "IniFile", "MbedTLS", "Sockets"]
 git-tree-sha1 = "c7ec02c4c6a039a98a15f955462cd7aea5df4508"
@@ -244,10 +220,9 @@ uuid = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 version = "0.8.19"
 
 [[IniFile]]
-deps = ["Test"]
-git-tree-sha1 = "098e4d2c533924c921f9f9847274f2ad89e018b8"
+git-tree-sha1 = "f550e6e32074c939295eb5ea6de31849ac2c9625"
 uuid = "83e8ac13-25f8-5344-8a64-a9f2b223428f"
-version = "0.5.0"
+version = "0.5.1"
 
 [[InlineStrings]]
 deps = ["Parsers"]
@@ -348,9 +323,9 @@ version = "0.19.2"
 
 [[MPICH_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "Pkg"]
-git-tree-sha1 = "4b754a51cec47b0366056efcf6e19d95b2ecb54c"
+git-tree-sha1 = "8eed51eb836c8f47781cdb493ffd5f56370c0496"
 uuid = "7cb0a576-ebde-5e09-9194-50597f1243b4"
-version = "4.0.0+0"
+version = "4.0.1+0"
 
 [[Markdown]]
 deps = ["Base64"]
@@ -399,12 +374,6 @@ git-tree-sha1 = "6340586e076b2abd41f5ba1a3b9c774ec6b30fde"
 uuid = "fe0851c0-eecd-5654-98d4-656369965a5c"
 version = "4.1.2+0"
 
-[[OpenSSL_jll]]
-deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
-git-tree-sha1 = "648107615c15d4e09f7eca16307bc821c1f718d8"
-uuid = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
-version = "1.1.13+0"
-
 [[OrderedCollections]]
 git-tree-sha1 = "85f8e6578bf1f9ee0d11e7bb1b1456435479d47c"
 uuid = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
@@ -434,9 +403,9 @@ version = "1.4.0"
 
 [[Preferences]]
 deps = ["TOML"]
-git-tree-sha1 = "2cf929d64681236a2e074ffafb8d568733d2e6af"
+git-tree-sha1 = "de893592a221142f3db370f48290e3a2ef39998f"
 uuid = "21216c6a-2e73-6563-6e65-726566657250"
-version = "1.2.3"
+version = "1.2.4"
 
 [[PrettyTables]]
 deps = ["Crayons", "Formatting", "Markdown", "Reexport", "Tables"]
@@ -577,9 +546,9 @@ version = "0.12.1+0"
 
 [[TimeZones]]
 deps = ["Dates", "Downloads", "InlineStrings", "LazyArtifacts", "Mocking", "Printf", "RecipesBase", "Serialization", "Unicode"]
-git-tree-sha1 = "0f1017f68dc25f1a0cb99f4988f78fe4f2e7955f"
+git-tree-sha1 = "2d4b6de8676b34525ac518de36006dc2e89c7e2e"
 uuid = "f269a46b-ccf7-5d73-abea-4c690281aa53"
-version = "1.7.1"
+version = "1.7.2"
 
 [[TranscodingStreams]]
 deps = ["Random", "Test"]
