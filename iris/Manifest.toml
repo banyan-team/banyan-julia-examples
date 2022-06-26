@@ -46,21 +46,21 @@ uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [[deps.Banyan]]
 deps = ["AWSCore", "AWSS3", "AWSSQS", "Base64", "DataStructures", "Dates", "Downloads", "FileIO", "FilePathsBase", "HTTP", "IniFile", "JSON", "LibGit2", "MPI", "MethodAnalysis", "Pkg", "ProgressMeter", "Random", "SHA", "Serialization", "Snappy", "TOML", "TimeZones"]
-git-tree-sha1 = "a43babb0509c854be99725d74f159392be16e62c"
+git-tree-sha1 = "1c9c4ff99710ac0d879bb0a4a358c8c112729470"
 uuid = "706d138b-e922-45b9-a636-baf8ae0d5317"
-version = "0.4.0"
+version = "0.4.1"
 
 [[deps.BanyanArrays]]
 deps = ["Banyan", "Dates", "Downloads", "FileIO", "FilePathsBase", "MPI", "Random", "Serialization"]
-git-tree-sha1 = "57249ab3cd071e1c23969520afaaea4f28dcc7aa"
+git-tree-sha1 = "3ca9ba91d68e8b62f96ea5cda4caf177dc9bb952"
 uuid = "369465de-032e-4609-9dcf-82b89c370a7b"
-version = "0.4.0"
+version = "0.4.1"
 
 [[deps.BanyanDataFrames]]
 deps = ["Arrow", "Banyan", "BanyanArrays", "DataFrames", "Dates", "Downloads", "FileIO", "FilePathsBase", "MPI", "Missings", "ProgressMeter", "Random", "Requires", "Serialization", "Statistics"]
-git-tree-sha1 = "d945ae467f038ae4e72fce103b7590fbd0635200"
+git-tree-sha1 = "985a8d205c72c0b8bd9894a314b6999c12eb422e"
 uuid = "dfdd4555-3ad7-41cc-a503-a251c9c652f9"
-version = "0.4.0"
+version = "0.4.1"
 
 [[deps.Base64]]
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
